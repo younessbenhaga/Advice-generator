@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+body{
+    background: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    background: hsl(217, 19%, 24%);
+    width: 500px;
+    height: max-content;
+    border-radius: 10px;
+}
+.adv{
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    font-size: small;
+    margin-top: 43px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-style: oblique;
+
+
+}
+#text {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    font-size: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+
+.svg{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mybtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0px;
+    cursor: pointer;
+    background: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: -25px;
+
+}
+i{
+    color: hsl(193, 38%, 86%);
+    font-size: 19px;
+}
+button:hover{
+    box-shadow: 0 0 2em hsl(150, 100%, 66%);
+
+}
+@media (max-width:454px) {
+
+    .container{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;    
+    }
+    #text {
+        font-size: 24px;
+    }
+
+
+}
+
